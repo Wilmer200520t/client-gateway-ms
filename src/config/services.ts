@@ -1,1 +1,2 @@
 export const PRODUCT_SERVICE = 'PRODUCTS_SERVICE';
+export const APP_FILTER = 'APP_FILTER';
