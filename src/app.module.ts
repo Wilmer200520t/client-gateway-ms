@@ -2,9 +2,10 @@ import { Module } from '@nestjs/common';
 import { APP_FILTER } from '@nestjs/core';
 import { ProductsModule } from './products/products.module';
 import { RpcCustomExceptionFilter } from './common/exceptions/rpc-custom-exception.filter';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
-  imports: [ProductsModule],
+  imports: [ProductsModule, OrdersModule],
   controllers: [],
   providers: [
     {
